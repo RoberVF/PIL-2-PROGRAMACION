@@ -1,0 +1,5 @@
+test/
+build/
+nbproject/
+src/conf/
+web/WEB-INF/

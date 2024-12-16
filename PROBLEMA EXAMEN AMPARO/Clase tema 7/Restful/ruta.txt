@@ -1,0 +1,1 @@
+http://localhost:8080/ServicioWebSencillo/webresources/saludos/hello?nombre=Roberto

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.2 (UNKNOWN-17d59c9; 2018-09-26T15:16:30-0700) JAXWS-RI/2.3.1 JAXWS-API/2.3.1 JAXB-RI/2.3.1 JAXB-API/2.3.1 svn-revision#unknown. --><xs:schema xmlns:tns="http://conversor/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://conversor/">
+
+<xs:element name="angsup1" type="tns:angsup1"/>
+
+<xs:element name="angsup1Response" type="tns:angsup1Response"/>
+
+<xs:element name="grad2rad" type="tns:grad2rad"/>
+
+<xs:element name="grad2radResponse" type="tns:grad2radResponse"/>
+
+<xs:element name="tipoang" type="tns:tipoang"/>
+
+<xs:element name="tipoangResponse" type="tns:tipoangResponse"/>
+
+<xs:complexType name="angsup1">
+<xs:sequence>
+<xs:element name="ang" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="angsup1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="grad2rad">
+<xs:sequence>
+<xs:element name="ang" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="grad2radResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tipoang">
+<xs:sequence>
+<xs:element name="ang" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tipoangResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
